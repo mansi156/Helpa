@@ -1,0 +1,29 @@
+0000000000000000000000000000000000000000 72e81277d7e7256d41a9d731267b712356c549db nitin.verma@appinventiv.com <nitin.verma_android> 1507270743 +0530	commit (initial): Initial Commit
+72e81277d7e7256d41a9d731267b712356c549db ef83c83e811d6536cec0bf63135af35ce048b5d8 nitin.verma@appinventiv.com <nitin.verma_android> 1507890588 +0530	commit: webview activity
+ef83c83e811d6536cec0bf63135af35ce048b5d8 4fb2ef59f5d6ca05adc0e0823d44768835a86f96 nitin.verma@appinventiv.com <nitin.verma_android> 1508135659 +0530	commit: initial comment
+4fb2ef59f5d6ca05adc0e0823d44768835a86f96 bcdd6692eb697190c08a846fdd45db6100e4349b nitin.verma@appinventiv.com <nitin.verma_android> 1509436160 +0530	commit: initial comment
+bcdd6692eb697190c08a846fdd45db6100e4349b 7d5fbd1a28eb30e40be1f87b3188533b2566f2fc nitin.verma@appinventiv.com <nitin.verma_android> 1509436461 +0530	commit: initial comment
+7d5fbd1a28eb30e40be1f87b3188533b2566f2fc 187503ea0194855e487f34bb148e724fafd1a413 nitin.verma@appinventiv.com <nitin.verma_android> 1509437071 +0530	commit: initial comment
+187503ea0194855e487f34bb148e724fafd1a413 8498e315be49b29f3216ad1f743a749732e50983 nitin.verma@appinventiv.com <nitin.verma_android> 1509532148 +0530	commit: Proguard rules
+8498e315be49b29f3216ad1f743a749732e50983 c3e722baa3477d32c519abbeb1a27cd57de68d04 nitin.verma@appinventiv.com <nitin.verma_android> 1509970796 +0530	commit: initial comment
+c3e722baa3477d32c519abbeb1a27cd57de68d04 3e631b78e97c28f0a8ccb5604e761a3048dec549 nitin.verma@appinventiv.com <nitin.verma_android> 1509970907 +0530	commit: initial comment
+3e631b78e97c28f0a8ccb5604e761a3048dec549 48e2c437dd174e988e6d6485d48a96515b00b299 nitin.verma@appinventiv.com <nitin.verma_android> 1510119620 +0530	commit: forgot
+48e2c437dd174e988e6d6485d48a96515b00b299 7f4a3e560ec84773375a41cc009a1b120a9a8395 nitin.verma@appinventiv.com <nitin.verma_android> 1510127558 +0530	commit: initial commit
+7f4a3e560ec84773375a41cc009a1b120a9a8395 2cfa2a229764fca46204573959eed12db388813e nitin.verma@appinventiv.com <nitin.verma_android> 1510127976 +0530	commit: butterknife
+2cfa2a229764fca46204573959eed12db388813e 167cb8b410095b99c36172d5baa3b84809954684 nitin.verma@appinventiv.com <nitin.verma_android> 1510214547 +0530	commit: reset with deep linking
+167cb8b410095b99c36172d5baa3b84809954684 b0001477e63b516f86b95c50de46e119b539f1c2 nitin.verma@appinventiv.com <nitin.verma_android> 1510730452 +0530	commit: initial commit
+b0001477e63b516f86b95c50de46e119b539f1c2 aca1a9462cb14ccd71317accc3bd788484ee4b1e nitin.verma@appinventiv.com <nitin.verma_android> 1510730617 +0530	commit (merge): Merge remote-tracking branch 'origin/master'
+aca1a9462cb14ccd71317accc3bd788484ee4b1e 75d28527775bc9926111e6aff87c4314573bdda9 nitin.verma@appinventiv.com <nitin.verma_android> 1510730669 +0530	commit: initial commit
+75d28527775bc9926111e6aff87c4314573bdda9 d547320f2dd2b1654ab7dce78a78733b2edf1b43 nitin.verma@appinventiv.com <nitin.verma_android> 1510730854 +0530	commit: initial commit
+d547320f2dd2b1654ab7dce78a78733b2edf1b43 d561557490190c92ffcff1834ebf61105d70be4e nitin.verma@appinventiv.com <nitin.verma_android> 1510730904 +0530	commit: initial commit
+d561557490190c92ffcff1834ebf61105d70be4e efad24b7a7e6b7da7f503112801e98990e435943 nitin.verma@appinventiv.com <nitin.verma_android> 1510733462 +0530	commit: initial commit
+efad24b7a7e6b7da7f503112801e98990e435943 f9b57a3eaf7ded2b211697fa5a86bca8ea3a4988 nitin.verma@appinventiv.com <nitin.verma_android> 1510754338 +0530	commit: Updated Gradle
+f9b57a3eaf7ded2b211697fa5a86bca8ea3a4988 2dcfdb1489f13cd12db1c60c74eb7b8e59e92fdb nitin.verma@appinventiv.com <nitin.verma_android> 1512556303 +0530	commit: api updated
+2dcfdb1489f13cd12db1c60c74eb7b8e59e92fdb 76a2860e2c7fd23144a7bcb4343bf68f610b14b7 nitin.verma@appinventiv.com <nitin.verma_android> 1512718821 +0530	commit: api updated
+76a2860e2c7fd23144a7bcb4343bf68f610b14b7 96d43e03bb58a61d0e32b7b7c64b357c19ade884 nitin.verma@appinventiv.com <nitin.verma_android> 1513232985 +0530	commit: crashlytics updated
+96d43e03bb58a61d0e32b7b7c64b357c19ade884 73ad83a0247a8478ada8f18904366f3f3407051d nitin.verma@appinventiv.com <nitin.verma_android> 1513233037 +0530	commit: crashlytics updated
+73ad83a0247a8478ada8f18904366f3f3407051d a840f14e43d0937eccfd3ff640ac590c50dfcabd nitin.verma@appinventiv.com <nitin.verma_android> 1523436375 +0530	commit: commit
+a840f14e43d0937eccfd3ff640ac590c50dfcabd df60dd2ba14c1c2741a2b422f00b6c643cd08bda nitin.verma@appinventiv.com <nitin.verma_android> 1530788302 +0530	commit: base project updated
+df60dd2ba14c1c2741a2b422f00b6c643cd08bda 53cc3140c41d894fbb4e290a845e9ff4169b0434 nitin.verma@appinventiv.com <nitin.verma_android> 1530788382 +0530	commit: base project updated
+53cc3140c41d894fbb4e290a845e9ff4169b0434 701944b945f57d290f3ea88f7a92327c225bd747 nitin.verma@appinventiv.com <nitin.verma_android> 1530788421 +0530	commit: base project updated
+701944b945f57d290f3ea88f7a92327c225bd747 dc0f121cf7be238090f232b2f29be3228aab0fb1 nitin.verma@appinventiv.com <nitin.verma_android> 1547105367 +0530	commit: add cancel upload

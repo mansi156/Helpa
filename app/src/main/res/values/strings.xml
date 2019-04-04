@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Helpa</string>
+    <string name="no_internet">No internet connection...!</string>
+    <string name="retry">Retry</string>
+    <string name="crash_toast_text">Oops ! App crashed, but a report has been sent to  developers to help fix the issue !</string>
+    <string name="h_fname">* Enter First Name</string>
+    <string name="h_lname">* Enter Last Name</string>
+    <string name="h_mname">Enter Middle Name</string>
+    <string name="h_email">* Enter Email ID</string>
+    <string name="email_invalid_val">Please enter the valid email id</string>
+    <string name="h_password">* Enter Password</string>
+    <string name="h_password_lenght">Password must be minimum 6 characters length</string>
+    <string name="v_gender">Please select gender</string>
+    <string name="v_postal">Please enter the valid postal code</string>
+    <string name="v_number">Please enter the valid phone number</string>
+    <string name="h_gender">* Enter Male / Female</string>
+    <string name="h_dob">* Enter DOB (mm/dd/yyyy)</string>
+    <string name="h_bio">Enter Biography</string>
+    <string name="h_username">Enter Username</string>
+    <string name="h_age">Enter Age</string>
+    <string name="h_number">Enter Number</string>
+    <string name="h_number_length">Enter 10 digit Number</string>
+    <string name="phone_invalid_val">Please enter the valid phone numner</string>
+    <string name="h_c_code">Enter Country Code</string>
+    <string name="h_city">Enter City</string>
+    <string name="h_postcal_code">Enter Postal Code</string>
+    <string name="h_region">Enter Region</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Log In</string>
+    <string name="Submit">Submit</string>
+    <string name="old_pass">Old Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="please_enter_old_pass">Please Enter old password</string>
+    <string name="new_valid">Please Enter New Password</string>
+    <string name="confirm_valid">Please Enter Confirm Password</string>
+    <string name="match">Old password and new password doesn\'t match</string>
+
+
+    <!--Fonts used-->
+    <string name="bold">SourceSansPro-Bold.ttf</string>
+    <string name="light">SourceSansPro-Light.ttf</string>
+    <string name="regular">SourceSansPro-Regular.ttf</string>
+    <string name="semibold">SourceSansPro-Semibold.ttf</string>
+    <string name="login_verify_phone">Log In - Verify Phone</string>
+    <string name="verify_phone_number">Verify phone number</string>
+    <string name="choose_your_zip_code">Choose your zip code</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="login_caps">LOG IN</string>
+    <string name="get_code">GET CODE</string>
+    <string name="verification_code">Verification code</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="resend_code_caps">RESEND CODE</string>
+    <string name="verify_caps">VERIFY</string>
+    <string name="signup_caps">SIGN UP</string>
+    <string name="required">Required</string>
+    <string name="username">Username</string>
+    <string name="optional">Optional</string>
+    <string name="your_location">Your location</string>
+    <string name="connect_with_facebook">Connect with Facebook</string>
+    <string name="connect_with_google">Connect with Google</string>
+    <string name="upload_id_card">Upload ID card</string>
+    <string name="for_verification_purpose_only">For verification purpose only</string>
+
+</resources>

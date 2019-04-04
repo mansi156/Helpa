@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.helpa.activities.MainActivity">
+
+    <include
+        android:id="@+id/toolbar_layout"
+        layout="@layout/toolbar" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_layout"
+        android:layout_margin="@dimen/_15sdp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_login_text"
+            style="@style/signup_text"
+            fontPath="@string/bold"
+            android:text="@string/verify_phone_number" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_lang_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_login_text"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:weightSum="2">
+
+
+            <ImageView
+                android:id="@+id/iv_country"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:src="@android:drawable/ic_delete" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_choose_zipcode"
+                    style="@style/signup_normal_text"
+                    android:text="@string/choose_your_zip_code" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_country_zip_code"
+                    style="@style/signup_normal_text"
+                    android:text="Hong Kong +852"
+                    android:textColor="@color/DarkCyan"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_next"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:src="@android:drawable/ic_delete" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_lang_lay"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_email"
+                style="@style/signup"
+                android:hint="@string/phone_number"
+                android:imeOptions="actionDone"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentBottom="true">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:text="@string/signup_caps"
+            android:gravity="center"
+            android:textColor="@color/DarkCyan"
+            android:textSize="@dimen/_15sdp" />
+
+
+        <RelativeLayout
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:background="@drawable/green_button_back"
+            android:layout_alignParentBottom="true">
+
+
+            <LinearLayout
+                android:id="@+id/ll_right"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+               android:layout_centerVertical="true">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_delete" />
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_getcode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/ll_right"
+                android:gravity="center"
+                android:text="@string/get_code"
+                android:textColor="@color/White"
+                android:textSize="@dimen/_15sdp" />
+
+        </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

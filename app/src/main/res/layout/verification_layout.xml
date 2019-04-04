@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_15sdp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_login_text"
+            style="@style/signup_text"
+            fontPath="@string/bold"
+            android:text="@string/enter_verification_code" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_login_text"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_verification_code"
+                style="@style/signup"
+                android:hint="@string/verification_code"
+                android:imeOptions="actionDone"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentBottom="true">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_resend_code"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:text="@string/resend_code_caps"
+                android:gravity="center"
+                android:textColor="@color/DarkCyan"
+                android:textSize="@dimen/_15sdp" />
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:background="@drawable/pink_button_back"
+                android:layout_alignParentBottom="true">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_right"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/iv_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@android:drawable/ic_delete" />
+                </LinearLayout>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_getcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@+id/ll_right"
+                    android:gravity="center"
+                    android:text="@string/verify_caps"
+                    android:textColor="@color/White"
+                    android:textSize="@dimen/_15sdp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

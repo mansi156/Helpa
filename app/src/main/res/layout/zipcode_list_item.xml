@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/ll_zipcode_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:weightSum="2">
+
+
+        <ImageView
+            android:id="@+id/iv_country"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:src="@android:drawable/ic_delete" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.4"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_country_zip_code"
+                style="@style/signup_normal_text"
+                android:text="Hong Kong (+852)"
+                android:textColor="@color/Black"/>
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/iv_next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:src="@android:drawable/ic_delete" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

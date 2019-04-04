@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_verify_phone">Log In - Verify Phone</string>
+    <string name="verify_phone_number">Verify phone number</string>
+    <string name="choose_your_zip_code">Choose your zip code</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="login_caps">LOG IN</string>
+    <string name="get_code">GET CODE</string>
+    <string name="verification_code">Verification code</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="resend_code_caps">RESEND CODE</string>
+    <string name="verify_caps">VERIFY</string>
+    <string name="signup_caps">SIGN UP</string>
+    <string name="required">Required</string>
+    <string name="username">Username</string>
+    <string name="optional">Optional</string>
+    <string name="your_location">Your location</string>
+    <string name="connect_with_facebook">Connect with Facebook</string>
+    <string name="connect_with_google">Connect with Google</string>
+    <string name="for_verification_purpose_only">For verification purpose only</string>
+</resources>
